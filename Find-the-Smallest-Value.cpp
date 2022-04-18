@@ -14,13 +14,14 @@ int main (){
     cout << " Enter number : ";
 
     while ( cin >> number ) {
-        cout << " Enter number : ";
+        
 
         if (number<=smallest){
             smallest = number ;
         }
-
-
+        
+        cout << " Enter number : ";
+        
     }
     cout << " The smallest is : " << smallest << endl ;
 
